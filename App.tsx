@@ -489,7 +489,7 @@ const App: React.FC = () => {
           {/* Header Certificado */}
           <div className="bg-blue-900 p-8 text-center text-white relative overflow-hidden print:bg-white print:text-black print:border-b print:border-stone-900">
             <div className="absolute top-0 left-0 w-full h-full opacity-10 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]"></div>
-            <img src={LOGO_URL} alt="Logo" className="h-20 mx-auto mb-4 relative z-10 bg-white rounded-full p-1" />
+            <img src={LOGO_URL} alt="Logo" className="h-20 mx-auto mb-4 relative z-10" />
             <h1 className="text-2xl md:text-3xl font-serif font-bold relative z-10">Latin Theological Seminary</h1>
             <p className="text-blue-200 text-xs uppercase tracking-[0.3em] mt-2 relative z-10 print:text-stone-500">Certificado de Los Evangelios</p>
           </div>
